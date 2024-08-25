@@ -1,0 +1,59 @@
+Name: Steven Shah
+Date Created: 8/25/2024
+
+---
+
+Program Description: 
+This program reads lines from a .txt file and randomly generates a line for each
+question the user inputs until they are ready to terminate.
+
+---
+
+Logical Steps:  
+1. Imported the random module
+2. Open and read the .txt file
+3. Ask user for entry
+4. Conditions determine whether to access program of terminate
+5. If not "exit", program reads random line from .txt file
+6. Display result
+7. Continue until user types "exit"
+
+---
+
+Variables:  
+1. [Variable 1: user_quest: this variable stores the user's entry question. ]
+2. [Variable 2: f : variable for file ]
+
+---
+
+Functions:
+1. Function Name: [open()]  
+   Description: [This function opens the response.txt file]  
+   Parameters: [The parameters are read only and limited to this .txt file.]  
+   Returns: [Returns a file object to the program.]
+
+2. Function Name: [input()]  
+   Description: [Allows user to enter data into program.]  
+   Parameters: [Has to be a yes/no question, or the word "exit".]  
+   Returns: [a generated response from the .txt file]
+
+3. Function Name: [list()]  
+   Description: [accesses list in responses.txt file]  
+   Parameters: [Parameters are the lines within the file.]  
+   Returns: [returns 1 random line from the .txt file]
+
+4. Function Name: [print()]  
+   Description: [displays predetermined message for the user to see.]  
+   Parameters: [Parameters are only what was predetermined to be displayed.]  
+   Returns: [wrote in string of characters.]
+
+5. Function Name: [exit()]  
+   Description: [terminates the program when user enters "exit".]  
+   Parameters: [Parameters are the word exit being typed by user.]  
+   Returns: [returns to a closed file.]
+
+---
+
+Link to repository: https://github.com/Shahsteve?tab=repositories
+
+---
